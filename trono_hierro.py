@@ -3,6 +3,9 @@ def puede_sentarse_en_el_trono(nombre, casa):
     mensaje = f"cualquier cosa {nombre} {casa}"
     if (casa == "Targaryen" and nombre != "Daenerys"):
             mensaje = f"La persona {nombre} de la casa {casa} se puede sentar en el trono de hierro"
+    elif(casa=="Stark"):
+          if(nombre=="Arya" or nombre=="Sansa"):
+                 mensaje = f"La persona {nombre} de la casa {casa} se puede sentar en el trono de hierro"
     return mensaje
 
 # Datos de Entrada
