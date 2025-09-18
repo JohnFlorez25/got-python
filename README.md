@@ -1,0 +1,1 @@
+# Ejercicio de código en Python basado en GoT
