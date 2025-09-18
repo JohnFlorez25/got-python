@@ -1,9 +1,8 @@
 # Funcion para definir quien se puede sentr en el trono de hierro
 def puede_sentarse_en_el_trono(nombre, casa):
     mensaje = f"cualquier cosa {nombre} {casa}"
-    if (casa == "Targaryen"):
-        if(nombre != "Daenerys"):
-            mensaje = f"La persona {nombre} de la {casa} se puede sentar en el trono de hierro"
+    if (casa == "Targaryen" and nombre != "Daenerys"):
+            mensaje = f"La persona {nombre} de la casa {casa} se puede sentar en el trono de hierro"
     return mensaje
 
 # Datos de Entrada
